@@ -5,13 +5,19 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "bootstrap": "^5.2.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.4.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
