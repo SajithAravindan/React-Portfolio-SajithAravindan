@@ -83,7 +83,7 @@ To install this project:
 
 <img src='./client/src/images/demo.png'>
 
-Deployed Application URL: https://pwa-texteditor.onrender.com/
+Deployed Application URL: https://neon-lolly-34fff5.netlify.app/
 
 GitHub URL: https://github.com/SajithAravindan/PWA-textEditor.git
 
