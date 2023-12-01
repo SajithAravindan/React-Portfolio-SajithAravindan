@@ -11,7 +11,7 @@ export default function AboutPage() {
       <div className="row g-0">
         <div className="col-md-4">
           <img
-            src="./src/images/Profile3.jpg"
+            src="../images/ProfilePic.jpg"
             alt="Profile Picture" height={750} width={750}
             className="img-fluid rounded-start"
           />
