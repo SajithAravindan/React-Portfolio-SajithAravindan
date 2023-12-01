@@ -6,10 +6,24 @@ import  WeatherDashboard  from '../images/WeatherDashboard.png';
 
 
 export default function PortFolio() {
+  const cardStyle = {
+    padding: ' 0px 10px 10px 10px',
+    margin: ' 0px 10px 10px 10px',
+    maxwidth: '540px',
+    backgroundColor: '#FEFAE0',
+  };
+  const cardHeaderStyle = {
+    backgroundColor: '#FAEDCD',
+    color: '#000000',
+    textAlign: 'left',
+    padding: ' 10px 10px 10px 10px',
+    margin: ' 0px 0px 10px 0px',
+ };
+ 
   return (
-    <div>
+    <div style={cardStyle}>
       <div className="row">
-        <div className="col-md-12">
+        <div className="col-md-12" style={cardHeaderStyle}>
           <h2 className="text-left">PortFolio</h2>
         </div>
       </div>

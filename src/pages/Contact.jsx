@@ -9,17 +9,17 @@ export default function Contact() {
   const cardHeaderStyle = {
      backgroundColor: '#FAEDCD',
      color: '#000000',
-     textAlign: 'center',
-     padding: '2px',
+     textAlign: 'left',
+     paddingLeft: '40px',
   };
+  
   return (
     <div className="container-fluid px-1 py-5 mx-auto">
       <form className="row g-3 needs-validation">
       <div className="card rounded-0" style={cardStyle}>
         <div className="card-header p-0">
           <div style={cardHeaderStyle}>
-            <h3><i className="fa fa-envelope"></i> Contact </h3>
-            <p className="m-0">Will be great to hear fom you! </p>
+            <h3><i className="fa fa-envelope"></i> Contact </h3>            
           </div>
         </div>
         <div className="card-body p-3">
@@ -50,7 +50,7 @@ export default function Contact() {
           </div>
 
           <div className="text-center">
-            <input type="submit" value="Submit" className="btn btn-info btn-block rounded-2 py-2 p-5" />
+            <input type="submit" value="Submit" className="btn btn-info btn-block custom-white-bg rounded-2 py-2 p-5 m-3" />
           </div>
         </div>
       </div>

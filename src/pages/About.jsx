@@ -7,6 +7,12 @@ export default function AboutPage() {
     maxwidth: '540px',
     backgroundColor: '#FEFAE0',
   };
+  const cardHeaderStyle = {
+    backgroundColor: '#FAEDCD',
+    color: '#000000',
+    textAlign: 'left',
+    paddingLeft: '10px',
+ };
   return (
     <div className="card mb-3" style={cardStyle}>
       <div className="row g-0">
@@ -18,8 +24,13 @@ export default function AboutPage() {
           />
         </div>
         <div className="col-md-8">
-          <div className="card-body">
-            <h2 className="card-title">About ME</h2>
+        <div className="card-header p-0">
+          <div style={cardHeaderStyle}>
+            <h3><i className="fa fa-user"></i> About ME </h3>
+            
+          </div>
+        </div>
+          <div className="card-body">            
             <p className="card-text">
               Hi, Sajith Aravindan here. A technology specialist with a strong business sense, with an overall experience of 
               15 years plus in Analysis, Design, Development and Project management of Enterprise 

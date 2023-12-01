@@ -68,27 +68,23 @@ h1 {
 }
 
 /* Main Section Buttons Styling */
-button {
+/* button {
   padding: 5px 5px 5px 5px;
   background: var(--btnBackground);
   color: var(--btnTextColor);
   border: 0;
-  border-radius: 7px;
-  /* round corners */
+  border-radius: 7px; 
   cursor: pointer;
-}
+} */
 
+.custom-white-bg {
+  background-color: #FAEDCD;
+  /* Add any additional styles if needed */
+}
 /* Main Section Buttons Hover Styling */
 button:hover {
   background: var(--btnBackgroundHover);
 }
-
-.navTitle {
-  font-weight: 900;
-  font-size: xx-large;
-  color: black;
-}
-
 
 a:link {
   color: rgb(97, 149, 185);
