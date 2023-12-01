@@ -1,4 +1,10 @@
-// This is a static page mocking an "About Us" section for our fake user data
+import  PWA  from '../images/PWA.png';
+import  bookreviewer  from '../images/book-reviewer.jpg';
+import  QRF  from '../images/Quality-Restaurant-Finder.jpg';
+import  TechBlog  from '../images/TechBlog.jpg';
+import  WeatherDashboard  from '../images/WeatherDashboard.jpg';
+
+
 export default function PortFolio() {
   return (
     <div>
@@ -11,7 +17,7 @@ export default function PortFolio() {
         <div className="col-md-6 col-lg-4 ">
           <div className="cardcontainer">
             <div className="img-container">
-              <img src="./src/images/PWA.png" alt="PWA" className="img-fluid" />
+              <img src={PWA} alt="PWA" className="img-fluid" />
             </div>
             <ul className="social-media">
               <li><a href="https://github.com/SajithAravindan/PWA-textEditor.git" target="_blank" rel="noreferrer"><i className="fa fa-github"></i></a></li>
@@ -26,7 +32,7 @@ export default function PortFolio() {
         <div className="col-md-6 col-lg-4 ">
           <div className="cardcontainer">
             <div className="img-container">
-              <img src="./src/images/book-reviewer.png" alt="Book Reviewer" className="img-fluid" />
+              <img src={bookreviewer} alt="Book Reviewer" className="img-fluid" />
             </div>
             <ul className="social-media">
               <li><a href="https://github.com/SajithAravindan/bookreviewer.git" target="_blank" rel="noreferrer"><i className="fa fa-github"></i></a></li>
@@ -41,7 +47,7 @@ export default function PortFolio() {
         <div className="col-md-6 col-lg-4 ">
           <div className="cardcontainer">
             <div className="img-container">
-              <img src="./src/images/Quality-Restaurant-Finder.png" alt="Quality Restaurant Finder" className="img-fluid" />
+              <img src={QRF} alt="Quality Restaurant Finder" className="img-fluid" />
             </div>
             <ul className="social-media">
               <li><a href="https://github.com/SajithAravindan/quality-restaurant-finder.git" target="_blank" rel="noreferrer"><i className="fa fa-github"></i></a></li>
@@ -58,7 +64,7 @@ export default function PortFolio() {
         <div className="col-md-6 col-lg-4 ">
           <div className="cardcontainer">
             <div className="img-container">
-              <img src="./src/images/TechBlog.png" alt="PWA" className="img-fluid" />
+              <img src={TechBlog} alt="PWA" className="img-fluid" />
             </div>
             <ul className="social-media">
               <li><a href="https://github.com/SajithAravindan/Tech-Blog.git" target="_blank" rel="noreferrer"><i className="fa fa-github"></i></a></li>
@@ -73,7 +79,7 @@ export default function PortFolio() {
         <div className="col-md-6 col-lg-4 column">
           <div className="cardcontainer">
             <div className="img-container">
-              <img src="./src/images/WeatherDashboard.png" alt="Weather Dashboard" className="img-fluid" />
+              <img src={WeatherDashboard} alt="Weather Dashboard" className="img-fluid" />
             </div>
             <ul className="social-media">
               <li><a href="https://github.com/SajithAravindan/weather-dashboard.git" target="_blank" rel="noreferrer"><i className="fa fa-github"></i></a></li>

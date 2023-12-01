@@ -1,6 +1,6 @@
 
 import Navigation from "./Navigation";
-
+import  Logo  from '../images/Logo3.png';
 
 // Function that renders the header & exports
 export default function Header() {
@@ -17,7 +17,7 @@ export default function Header() {
             <nav className="navbar navbar-expand-lg navbar-light" style={navLinkStyle1}>
                 <div className="container-fluid navBack">
                     <a className="navbar-brand navTitle" href="/">
-                        <img src="./src/images/Logo3.png" alt="logo"                       
+                        <img src={Logo} alt="logo"                       
                         className="shadow-lg p-1 mb-1 bg-white rounded" /></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
