@@ -19,9 +19,9 @@ export default function AboutPage() {
         </div>
         <div className="col-md-8">
           <div className="card-body">
-            <h5 className="card-title">About ME</h5>
+            <h2 className="card-title">About ME</h2>
             <p className="card-text">
-              A technology specialist with a strong business sense, with an overall experience of 
+              Hi, Sajith Aravindan here. A technology specialist with a strong business sense, with an overall experience of 
               15 years plus in Analysis, Design, Development and Project management of Enterprise 
               products and Web based applications. Primary expertise is in Enterprise Procurement 
               systems, Knowledge Management systems, Enterprise portals, Content Management Systems 
@@ -30,10 +30,9 @@ export default function AboutPage() {
               <p className="card-text">
               I am committed to knowing and working with the latest technologies to produce 
               world-class success through innovative, and grow with the company.
-
             </p>
             <p className="card-text">
-              <small className="text-muted">Currently I work in the Retail Domain. This Boot Camp is my first step to switching my career.</small>
+              I took a break from IT and over the past 5 years I work in the Retail Sector. This Boot Camp is my first step to switching my career back to where my Heart Belongs. They say <big className="text-muted"> Home is Where your Heart IS!!!</big>... Its so True!
             </p>
           </div>
         </div>

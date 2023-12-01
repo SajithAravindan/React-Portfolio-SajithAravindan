@@ -10,7 +10,7 @@ export default function PortFolio() {
     <div>
       <div className="row">
         <div className="col-md-12">
-          <h2 className="text-center">PortFolio</h2>
+          <h2 className="text-left">PortFolio</h2>
         </div>
       </div>
       <div className="row align-middle">
@@ -24,7 +24,7 @@ export default function PortFolio() {
               <li><a href="https://pwa-texteditor.onrender.com/" target="_blank" rel="noreferrer"><i className="fa fa-cloud-upload"></i></a></li>
             </ul>
             <div className="user-info">
-              <h2>PWA</h2>
+              <h6>PWA</h6>
               <span>A Progressive Web App</span>
             </div>
           </div>
@@ -39,7 +39,7 @@ export default function PortFolio() {
               <li><a href="https://blooming-thicket-72514-75b0ef205a97.herokuapp.com/" target="_blank" rel="noreferrer"><i className="fa fa-cloud-upload"></i></a></li>
             </ul>
             <div className="user-info">
-              <h2>Book Reviewer</h2>
+              <h6>Book Reviewer</h6>
               <span>A WebSite to review Books!</span>
             </div>
           </div>
@@ -54,10 +54,15 @@ export default function PortFolio() {
               <li><a href="https://sajitharavindan.github.io/quality-restaurant-finder/" target="_blank" rel="noreferrer"><i className="fa fa-cloud-upload"></i></a></li>
             </ul>
             <div className="user-info">
-              <h2>Quality Restaurant Finder</h2>
+              <h6>Quality Restaurant Finder</h6>
               <span>A Website to find Quality Restaurants near you!!</span>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-md-12">
+        <br />          
         </div>
       </div>
       <div className="row align-middle">
@@ -71,7 +76,7 @@ export default function PortFolio() {
               <li><a href="https://calm-stream-60888-077b07d80633.herokuapp.com/" target="_blank" rel="noreferrer"><i className="fa fa-cloud-upload"></i></a></li>
             </ul>
             <div className="user-info">
-              <h2>Tech Blog</h2>
+              <h6>Tech Blog</h6>
               <span>A Web Based CMS-style blog Application</span>
             </div>
           </div>
@@ -86,7 +91,7 @@ export default function PortFolio() {
               <li><a href="https://sajitharavindan.github.io/weather-dashboard/" target="_blank" rel="noreferrer"><i className="fa fa-cloud-upload"></i></a></li>
             </ul>
             <div className="user-info">
-              <h2>Weather Dashboard</h2>
+              <h6>Weather Dashboard</h6>
               <span>Weather outlook application for multiple cities!</span>
             </div>
           </div>

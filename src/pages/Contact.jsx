@@ -1,67 +1,60 @@
 // This is a static page mocking an "About Us" section for our fake user data
+
 export default function Contact() {
-    return (
-      <div className="container pt-4">
-        Contact
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-          impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-          architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-          mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-          nostrum temporibus ad omnis nam rerum eligendi.
-        </p>
-        <section className="features-icons bg-light text-center m-4">
-          <div className="container">
-            <div className="row p-2">
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="bi-window m-auto text-primary" />
-                  </div>
-                  <h3>Fully Responsive</h3>
-                  <p className="lead mb-0">
-                    This theme will look great on any device, no matter the size!
-                  </p>
-                </div>
+  const cardStyle = {
+    maxwidth: '500px',
+    backgroundColor: '#FEFAE0',
+  };
+
+  const cardHeaderStyle = {
+     backgroundColor: '#FAEDCD',
+     color: '#000000',
+     textAlign: 'center',
+     padding: '2px',
+  };
+  return (
+    <div className="container-fluid px-1 py-5 mx-auto">
+      <form className="row g-3 needs-validation">
+      <div className="card rounded-0" style={cardStyle}>
+        <div className="card-header p-0">
+          <div style={cardHeaderStyle}>
+            <h3><i className="fa fa-envelope"></i> Contact </h3>
+            <p className="m-0">Will be great to hear fom you! </p>
+          </div>
+        </div>
+        <div className="card-body p-3">
+          <div className="form-group">
+            <div className="input-group mb-2">
+              <div className="input-group-prepend p-3">
+                <div className="input-group-text"><i className="fa fa-user text-info"></i></div>
               </div>
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="bi-layers m-auto text-primary" />
-                  </div>
-                  <h3>Bootstrap 5 Ready</h3>
-                  <p className="lead mb-0">
-                    Featuring the latest build of the new Bootstrap 5 framework!
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="bi-terminal m-auto text-primary" />
-                  </div>
-                  <h3>Easy to Use</h3>
-                  <p className="lead mb-0">
-                    Ready to use with your own content, or customize the source
-                    files!
-                  </p>
-                </div>
-              </div>
+              <input type="text" className="form-control" id="nombre" name="nombre" placeholder="Your Name" required />
             </div>
           </div>
-        </section>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-          impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-          architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-          mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-          nostrum temporibus ad omnis nam rerum eligendi.
-        </p>
+          <div className="form-group">
+            <div className="input-group mb-2">
+              <div className="input-group-prepend p-3">
+                <div className="input-group-text"><i className="fa fa-envelope text-info"></i></div>
+              </div>
+              <input type="email" className="form-control" id="nombre" name="email" placeholder="yourmailname@mail.com" required />
+            </div>
+          </div>
+
+          <div className="form-group">
+            <div className="input-group mb-2">
+              <div className="input-group-prepend p-3">
+                <div className="input-group-text"><i className="fa fa-comment text-info"></i></div>
+              </div>
+              <textarea className="form-control form-control-lg" placeholder="Your Message" rows={8} required></textarea>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <input type="submit" value="Submit" className="btn btn-info btn-block rounded-2 py-2 p-5" />
+          </div>
+        </div>
       </div>
-    );
-  }
-  
+      </form>
+    </div>
+  );
+}
