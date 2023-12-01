@@ -4,14 +4,14 @@ export default function PortFolio() {
     <div>
       <div className="row">
         <div className="col-md-12">
-          <h1 className="text-center">PortFolio</h1>
+          <h2 className="text-center">PortFolio</h2>
         </div>
       </div>
       <div className="row align-middle">
-        <div className="col-md-6 col-lg-4 column">
+        <div className="col-md-6 col-lg-4 ">
           <div className="cardcontainer">
             <div className="img-container">
-              <img src="./src/images/PWA.png" alt="PWA" />
+              <img src="./src/images/PWA.png" alt="PWA" className="img-fluid" />
             </div>
             <ul className="social-media">
               <li><a href="https://github.com/SajithAravindan/PWA-textEditor.git" target="_blank" rel="noreferrer"><i className="fa fa-github"></i></a></li>
@@ -23,10 +23,10 @@ export default function PortFolio() {
             </div>
           </div>
         </div>
-        <div className="col-md-6 col-lg-4 column">
+        <div className="col-md-6 col-lg-4 ">
           <div className="cardcontainer">
             <div className="img-container">
-              <img src="./src/images/book-reviewer.png" alt="Book Reviewer" />
+              <img src="./src/images/book-reviewer.png" alt="Book Reviewer" className="img-fluid" />
             </div>
             <ul className="social-media">
               <li><a href="https://github.com/SajithAravindan/bookreviewer.git" target="_blank" rel="noreferrer"><i className="fa fa-github"></i></a></li>
@@ -38,10 +38,10 @@ export default function PortFolio() {
             </div>
           </div>
         </div>
-        <div className="col-md-6 col-lg-4 column">
+        <div className="col-md-6 col-lg-4 ">
           <div className="cardcontainer">
             <div className="img-container">
-              <img src="./src/images/Quality-Restaurant-Finder.png" alt="Quality Restaurant Finder" />
+              <img src="./src/images/Quality-Restaurant-Finder.png" alt="Quality Restaurant Finder" className="img-fluid" />
             </div>
             <ul className="social-media">
               <li><a href="https://github.com/SajithAravindan/quality-restaurant-finder.git" target="_blank" rel="noreferrer"><i className="fa fa-github"></i></a></li>
@@ -55,10 +55,10 @@ export default function PortFolio() {
         </div>
       </div>
       <div className="row align-middle">
-        <div className="col-md-6 col-lg-4 column">
+        <div className="col-md-6 col-lg-4 ">
           <div className="cardcontainer">
             <div className="img-container">
-              <img src="./src/images/TechBlog.png" alt="PWA" />
+              <img src="./src/images/TechBlog.png" alt="PWA" className="img-fluid" />
             </div>
             <ul className="social-media">
               <li><a href="https://github.com/SajithAravindan/Tech-Blog.git" target="_blank" rel="noreferrer"><i className="fa fa-github"></i></a></li>
@@ -69,29 +69,11 @@ export default function PortFolio() {
               <span>A Web Based CMS-style blog Application</span>
             </div>
           </div>
-        </div>
+        </div>        
         <div className="col-md-6 col-lg-4 column">
           <div className="cardcontainer">
             <div className="img-container">
-              <img src="./src/images/book-reviewer.png" alt="Book Reviewer" />
-            </div>
-            <ul className="social-media">
-              <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
-              <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-              <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-            </ul>
-            <div className="user-info">
-              <h2>Aniket Singh</h2>
-              <span>20-july</span>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6 col-lg-4 column">
-          <div className="cardcontainer">
-            <div className="img-container">
-              <img src="./src/images/WeatherDashboard.png" alt="Weather Dashboard" />
+              <img src="./src/images/WeatherDashboard.png" alt="Weather Dashboard" className="img-fluid" />
             </div>
             <ul className="social-media">
               <li><a href="https://github.com/SajithAravindan/weather-dashboard.git" target="_blank" rel="noreferrer"><i className="fa fa-github"></i></a></li>

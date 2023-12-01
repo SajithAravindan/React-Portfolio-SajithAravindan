@@ -27,7 +27,7 @@ export default function AboutPage() {
               and Document Management systems.
               </p>
               <p className="card-text">
-              I am committed to knowing and working with the latest technological applications to produce 
+              I am committed to knowing and working with the latest technologies to produce 
               world-class success through innovative, and grow with the company.
 
             </p>
