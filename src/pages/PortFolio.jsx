@@ -1,8 +1,8 @@
 import  PWA  from '../images/PWA.png';
-import  bookreviewer  from '../images/book-reviewer.jpg';
-import  QRF  from '../images/Quality-Restaurant-Finder.jpg';
-import  TechBlog  from '../images/TechBlog.jpg';
-import  WeatherDashboard  from '../images/WeatherDashboard.jpg';
+import  bookreviewer  from '../images/book-reviewer.png';
+import  QRF  from '../images/Quality-Restaurant-Finder.png';
+import  TechBlog  from '../images/TechBlog.png';
+import  WeatherDashboard  from '../images/WeatherDashboard.png';
 
 
 export default function PortFolio() {
