@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import About from './pages/About';
 import { useLocation } from 'react-router-dom';
 
-
+// App component to use the Outlet component from react-router-dom.
 function App() {
   const location = useLocation().pathname;
   return (
@@ -19,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;//exporting the App component
