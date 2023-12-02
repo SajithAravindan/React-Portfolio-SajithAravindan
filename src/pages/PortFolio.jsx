@@ -1,8 +1,8 @@
-import  PWA  from '../images/PWA.png';
-import  bookreviewer  from '../images/book-reviewer.png';
-import  QRF  from '../images/Quality-Restaurant-Finder.png';
-import  TechBlog  from '../images/TechBlog.png';
-import  WeatherDashboard  from '../images/WeatherDashboard.png';
+import PWA from '../images/PWA.png';
+import bookreviewer from '../images/book-reviewer.png';
+import QRF from '../images/Quality-Restaurant-Finder.png';
+import TechBlog from '../images/TechBlog.png';
+import WeatherDashboard from '../images/WeatherDashboard.png';
 
 
 export default function PortFolio() {
@@ -18,12 +18,12 @@ export default function PortFolio() {
     textAlign: 'left',
     padding: ' 10px 10px 10px 10px',
     margin: ' 0px 0px 10px 0px',
- }; 
+  };
   return (
     <div style={cardStyle}>
       <div className="row">
         <div className="col-md-12 p-10" style={cardHeaderStyle}>
-          <h3 className="text-left"><i className="fa fa-wrench"/> PortFolio</h3>
+          <h3 className="text-left"><i className="fa fa-wrench" /> PortFolio</h3>
         </div>
       </div>
       <div className="row align-middle">
@@ -37,8 +37,11 @@ export default function PortFolio() {
               <li><a href="https://pwa-texteditor.onrender.com/" target="_blank" rel="noreferrer"><i className="fa fa-cloud-upload"></i></a></li>
             </ul>
             <div className="user-info">
-              <h6>PWA</h6>
-              <span>A Progressive Web App</span>
+              <h4>PWA</h4>
+              <span>Webpack+Workbox/Concurrently
+                JS/IndexedDB/Express
+                NodeJS/Babe
+              </span>
             </div>
           </div>
         </div>
@@ -52,8 +55,9 @@ export default function PortFolio() {
               <li><a href="https://blooming-thicket-72514-75b0ef205a97.herokuapp.com/" target="_blank" rel="noreferrer"><i className="fa fa-cloud-upload"></i></a></li>
             </ul>
             <div className="user-info">
-              <h6>Book Reviewer</h6>
-              <span>A WebSite to review Books!</span>
+              <h4>Book Reviewer</h4>
+              <span>Node/Express/js/Sequelize/MySQL
+                bcrypt/nodemailer/Bootstrap</span>
             </div>
           </div>
         </div>
@@ -67,15 +71,15 @@ export default function PortFolio() {
               <li><a href="https://sajitharavindan.github.io/quality-restaurant-finder/" target="_blank" rel="noreferrer"><i className="fa fa-cloud-upload"></i></a></li>
             </ul>
             <div className="user-info">
-              <h6>Quality Restaurant Finder</h6>
-              <span>A Website to find Quality Restaurants near you!!</span>
+              <h4>Quality Restaurant Finder</h4>
+              <span>TailWind CSS/JS/REST API</span>
             </div>
           </div>
         </div>
       </div>
       <div className="row">
         <div className="col-md-12">
-        <br />          
+          <br />
         </div>
       </div>
       <div className="row align-middle">
@@ -89,11 +93,12 @@ export default function PortFolio() {
               <li><a href="https://calm-stream-60888-077b07d80633.herokuapp.com/" target="_blank" rel="noreferrer"><i className="fa fa-cloud-upload"></i></a></li>
             </ul>
             <div className="user-info">
-              <h6>Tech Blog</h6>
-              <span>A Web Based CMS-style blog Application</span>
+              <h4>Tech Blog</h4>
+              <span>Node/Express/Js/Sequelize/MySQL/
+                Bootstrap</span>
             </div>
           </div>
-        </div>        
+        </div>
         <div className="col-md-6 col-lg-4 column">
           <div className="cardcontainer">
             <div className="img-container">
@@ -104,8 +109,8 @@ export default function PortFolio() {
               <li><a href="https://sajitharavindan.github.io/weather-dashboard/" target="_blank" rel="noreferrer"><i className="fa fa-cloud-upload"></i></a></li>
             </ul>
             <div className="user-info">
-              <h6>Weather Dashboard</h6>
-              <span>Weather outlook application for multiple cities!</span>
+              <h4>Weather Dashboard</h4>
+              <span>TailWind CSS/JS/REST API/Bootstrap</span>
             </div>
           </div>
         </div>

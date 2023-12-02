@@ -64,7 +64,12 @@ button:hover {
   background: var(--btnBackgroundHover);
 }
 
-a:link {
+.custom-Navigation {
+  font-size: 28px; 
+  font-family: Azeret Mono, sans-serif;
+}
+
+a:link {   
   color: rgb(97, 149, 185);
 }
 
@@ -74,6 +79,14 @@ a:visited {
 
 a:hover {
   color: rgb(87, 20, 255);
+}
+
+.login {
+  margin-left: 25px;
+}
+
+.signup {
+  margin-left: 25px;
 }
 
 .form-group {
