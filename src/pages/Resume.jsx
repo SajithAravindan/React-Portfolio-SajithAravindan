@@ -82,6 +82,7 @@ export default function Resume() {
                   <li>Single Page Applications (SPA)</li>
                   <li>Model View Controller (MVC)</li>  
                   <li>PHP</li>
+                  <li>WordPress</li>
                 </ul>
               </div>
             </form>

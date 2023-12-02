@@ -18,8 +18,6 @@ User Story & Acceptance Criteria follow the AS AN / I WANT / SO THAT format.
 
 * [Demo](#demo) 
 
-* [License](#license) 
-
 
 
 ## User Story
@@ -61,14 +59,11 @@ GIVEN a single-page application portfolio for a web developer
 
 ## Technologies Used
 
-* Mini-CSS-Extract Plugin
-* Webpack+Workbox
-* Concurrently
-* JavaScript
-* IndexedDB
+* React
+* Vite
 * Express
 * NodeJS
-* Babel
+* BootStrap
 
 
 ## Installation
@@ -85,8 +80,5 @@ To install this project:
 
 Deployed Application URL: https://neon-lolly-34fff5.netlify.app/
 
-GitHub URL: https://github.com/SajithAravindan/PWA-textEditor.git
+GitHub URL: https://github.com/SajithAravindan/React-Portfolio-SajithAravindan.git
 
-## License
-
-* Please refer to the LICENSE in the repo. <a href="https://github.com/SajithAravindan/PWA-textEditor/blob/main/LICENSE">(MIT License)</a>
