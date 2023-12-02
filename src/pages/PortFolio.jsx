@@ -18,8 +18,7 @@ export default function PortFolio() {
     textAlign: 'left',
     padding: ' 10px 10px 10px 10px',
     margin: ' 0px 0px 10px 0px',
- };
- 
+ }; 
   return (
     <div style={cardStyle}>
       <div className="row">
