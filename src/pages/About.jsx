@@ -26,8 +26,7 @@ export default function AboutPage() {
         <div className="col-md-8">
         <div className="card-header p-0">
           <div style={cardHeaderStyle}>
-            <h3><i className="fa fa-user"></i> About ME </h3>
-            
+            <h3><i className="fa fa-user"></i> About Me </h3>            
           </div>
         </div>
           <div className="card-body">            

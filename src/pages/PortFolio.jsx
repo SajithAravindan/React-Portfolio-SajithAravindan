@@ -23,8 +23,8 @@ export default function PortFolio() {
   return (
     <div style={cardStyle}>
       <div className="row">
-        <div className="col-md-12" style={cardHeaderStyle}>
-          <h2 className="text-left">PortFolio</h2>
+        <div className="col-md-12 p-10" style={cardHeaderStyle}>
+          <h3 className="text-left"><i className="fa fa-wrench"/> PortFolio</h3>
         </div>
       </div>
       <div className="row align-middle">

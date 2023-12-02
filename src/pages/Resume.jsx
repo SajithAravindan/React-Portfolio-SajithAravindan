@@ -1,67 +1,51 @@
 // This is a static page mocking an "About Us" section for our fake user data
 export default function Resume() {
-    return (
-      <div className="container pt-4">
-        Resume
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-          impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-          architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-          mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-          nostrum temporibus ad omnis nam rerum eligendi.
-        </p>
-        <section className="features-icons bg-light text-center m-4">
-          <div className="container">
-            <div className="row p-2">
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="bi-window m-auto text-primary" />
-                  </div>
-                  <h3>Fully Responsive</h3>
-                  <p className="lead mb-0">
-                    This theme will look great on any device, no matter the size!
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="bi-layers m-auto text-primary" />
-                  </div>
-                  <h3>Bootstrap 5 Ready</h3>
-                  <p className="lead mb-0">
-                    Featuring the latest build of the new Bootstrap 5 framework!
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="bi-terminal m-auto text-primary" />
-                  </div>
-                  <h3>Easy to Use</h3>
-                  <p className="lead mb-0">
-                    Ready to use with your own content, or customize the source
-                    files!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-          impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-          architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-          mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-          nostrum temporibus ad omnis nam rerum eligendi.
-        </p>
+  const cardStyle = {
+    padding: ' 0px 10px 10px 10px',
+    margin: ' 0px 10px 10px 10px',
+    maxwidth: '540px',
+    backgroundColor: '#FEFAE0',
+  };
+  const cardHeaderStyle = {
+    backgroundColor: '#FAEDCD',
+    color: '#000000',
+    textAlign: 'left',
+    padding: ' 10px 10px 10px 10px',
+    margin: ' 0px 0px 10px 0px',
+  };
+  return (
+    <div style={cardStyle}>
+      <div className="row">
+        <div className="col-md-12 p-10" style={cardHeaderStyle}>
+          <h3 className="text-left"><i className="fa fa-wrench" /> PortFolio</h3>
+        </div>
       </div>
-    );
-  }
-  
+      <div className="container shadow min-vh-100 py-2">
+    <div className="container network_wrapper col-sm p-2 ">
+        <div className="card">
+            <div className="card-header">
+                <h5 className="card-title">Network Settings</h5>
+                <ul className="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
+                    <li className="nav-item">
+                        <a className="nav-link active" aria-current="true" data-bs-toggle="tab" href="#dhcp">DHCP</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" data-bs-toggle="tab" href="#static">Static</a>
+                    </li>
+                </ul>
+            </div>
+            <form className="card-body tab-content">
+                <div className="tab-pane active" id="dhcp">
+                    <p className="card-text">Change DHCP Network settings.</p>
+                </div>
+                <div className="tab-pane" id="static">
+                    <p className=" card-text">Change Static Network settings.</p>
+                </div>
+                <button className="btn btn-primary" type="submit">Save</button>
+            </form>
+        </div>
+    </div>
+</div>
+    </div>
+  );
+}
