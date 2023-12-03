@@ -74,8 +74,7 @@ export default function Resume() {
                   <li>MsSQL</li>
                   <li>IndexedDB</li>
                   <li>ASP.NET, VB.NET</li>
-                  <li>C#, VB, ASP,VB Script</li> 
-                  <li>Java</li>
+                  <li>C#, VB, ASP,VB Script</li>                   
                   <li>REST API</li>
                   <li>GraphQL</li>
                   <li>Progressive Web Applications (PWA)</li>

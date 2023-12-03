@@ -110,7 +110,7 @@ export default function PortFolio() {
             </ul>
             <div className="user-info">
               <h4>Weather Dashboard</h4>
-              <span>TailWind CSS/JS/REST API/Bootstrap</span>
+              <span>JS/REST API/Bootstrap</span>
             </div>
           </div>
         </div>
