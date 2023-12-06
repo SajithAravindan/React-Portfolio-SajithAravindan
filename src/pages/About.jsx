@@ -1,5 +1,5 @@
 // This is a static page mocking an "About Us" section
-import  Hero  from '../images/Profile3.jpg';
+import  Hero  from '../assets/Images/About/Profile3.jpg';
 export default function AboutPage() {
   const cardStyle = {
     padding: ' 10px 10px 10px 10px',

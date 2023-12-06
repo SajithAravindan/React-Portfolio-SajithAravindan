@@ -6,7 +6,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   /* background-color: #FAEDCD; */
-  background-image: url("./images/BCKGrnd3.jpg");
+  background-image: url("./assets/Images/General/BCKGrnd3.jpg");
   background-size: cover;
 
   font-synthesis: none;
@@ -20,7 +20,7 @@
 
 body {
   /* background-color: #FAEDCD; */
-  background-image: url("./images/BCKGrnd3.jpg");
+  background-image: url("./assets/Images/General/BCKGrnd3.jpg");
   background-attachment: scroll;
   background-size: cover;
   background-repeat: no-repeat;

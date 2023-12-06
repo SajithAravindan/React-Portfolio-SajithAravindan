@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "PWA",
+        "image": "https://github.com/SajithAravindan/PWA-textEditor/raw/main/client/src/images/demo.png",
+        "github": "https://github.com/SajithAravindan/PWA-textEditor.git",
+        "deploy": "https://pwa-texteditor.onrender.com/",
+        "topics": "Webpack+Workbox, Concurrently, JS, IndexedDB, Express, NodeJS/Babe"
+    },
+    {
+        "id": 2,
+        "name": "Book Reviewer",
+        "image": "https://github.com/SajithAravindan/bookreviewer/raw/main/public/imgs/demo.png",
+        "github": "https://github.com/SajithAravindan/bookreviewer.git",
+        "deploy": "https://blooming-thicket-72514-75b0ef205a97.herokuapp.com/",
+        "topics": "Node,Express,js,Sequelize,MySQL,bcrypt,nodemailer,Bootstrap"
+    },
+    {
+        "id": 3,
+        "name": "Quality Restaurant Finder",
+        "image": "https://github.com/SajithAravindan/quality-restaurant-finder/raw/main/Develop/img/demo.png",
+        "github": "https://github.com/SajithAravindan/quality-restaurant-finder.git",
+        "deploy": "https://sajitharavindan.github.io/quality-restaurant-finder/",
+        "topics": "node, TailWind CSS, JS, REST API"
+    },
+    {
+        "id": 4,
+        "name": "Tech Blog",
+        "image": "https://github.com/SajithAravindan/Tech-Blog/raw/main/public/imgs/Demo.png",
+        "github": "https://github.com/SajithAravindan/Tech-Blog.git",
+        "deploy": "https://calm-stream-60888-077b07d80633.herokuapp.com/",
+        "topics": "Node, Express, Js, Sequelize, MySQL, Bootstrap"
+    },
+    {
+        "id": 5,
+        "name": "Weather Dashboard",
+        "image": "https://github.com/SajithAravindan/weather-dashboard/raw/main/assets/imgs/demo.png",
+        "github": "https://github.com/SajithAravindan/weather-dashboard.git",
+        "deploy": "https://sajitharavindan.github.io/weather-dashboard/",
+        "topics": "JS, REST API, Bootstrap"
+    },
+    {
+        "id": 6,
+        "name": "Work Day Scheduler",
+        "image": "https://github.com/fondofhats/workday-scheduler/raw/master/workday-scheduler.png",
+        "github": "https://github.com/fondofhats/workday-scheduler",
+        "deploy": "https://fondofhats.github.io/workday-scheduler/",
+        "topics": "HTML5, CSS, Javascript, JQuery, Bootstrap"
+    }
+]

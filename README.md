@@ -76,7 +76,7 @@ To install this project:
 
 ## Demo
 
-<img src='./src/images/demo.png'>
+<img src='./src/assets/Images/General/demo.png'>
 
 Deployed Application URL: https://neon-lolly-34fff5.netlify.app/
 

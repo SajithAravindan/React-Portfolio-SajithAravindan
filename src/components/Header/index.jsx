@@ -1,6 +1,6 @@
 
-import Navigation from "./Navigation";
-import  Logo  from '../images/Logo3.png';
+import Navigation from "../Navigation";
+import  Logo  from '../../assets/Images/Logo/Logo3.png';
 
 // Function that renders the header & exports
 export default function Header() {

@@ -1,7 +1,8 @@
-// This is a static page mocking an "About Us" section for our fake user data
-import ResumePdf from "../Resume.pdf";
+// Desc: This is the Resume page. It is a functional component that renders the Resume page.
+import ResumePdf from "../Resume.pdf";//importing the Resume.pdf file
 
 export default function Resume() {
+  // Styling for the Resume page
   const cardStyle = {
     padding: ' 0px 10px 10px 10px',
     margin: ' 0px 10px 10px 10px',
@@ -20,7 +21,7 @@ export default function Resume() {
     color: '#000000',
 
   };
-  return (
+  return (//returning the Resume page
     <div style={cardStyle}>
       <div className="row">
         <div className="col-md-6 col-lg-6 p-10" style={cardHeaderStyle}>
