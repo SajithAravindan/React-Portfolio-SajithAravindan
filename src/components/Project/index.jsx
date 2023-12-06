@@ -1,5 +1,7 @@
-import React from 'react';
+// Desc: This file contains the Project component
+import React from 'react';//importing react
 
+// Project component using props
 function Project(props) {
     return (
         <div className="col-md-6 col-lg-4 ">

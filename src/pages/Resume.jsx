@@ -1,4 +1,4 @@
-// Desc: This is the Resume page. It is a functional component that renders the Resume page.
+// Desc: This is the Resume page
 import ResumePdf from "../Resume.pdf";//importing the Resume.pdf file
 
 export default function Resume() {

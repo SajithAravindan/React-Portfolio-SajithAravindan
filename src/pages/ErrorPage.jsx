@@ -1,9 +1,8 @@
-import { useRouteError } from 'react-router-dom';
+import { useRouteError } from 'react-router-dom';//import the hook
 
 export default function ErrorPage() {
-  const error = useRouteError();
-  //console.error(error);
-
+  const error = useRouteError();//use the hook
+ 
   return (
     <div id="error-page">
       <h1>Oops!</h1>

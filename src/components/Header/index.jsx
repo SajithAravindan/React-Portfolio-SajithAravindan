@@ -1,4 +1,8 @@
 
+//Description: This file is the header component for the application. 
+//It is used to render the header of the application.
+
+// Importing Dependencies
 import Navigation from "../Navigation";
 import  Logo  from '../../assets/Images/Logo/Logo3.png';
 
@@ -24,6 +28,7 @@ export default function Header() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    {/* Using the Navigation component to render the navigation bar */}
                     <Navigation />
                     </div>
                 </div>

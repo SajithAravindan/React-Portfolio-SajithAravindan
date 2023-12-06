@@ -1,7 +1,11 @@
+// Note: This is the Navigation component. It is used to create the navigation bar at the top of the page. 
+//It is imported into the App.js file and rendered on the page. 
+//It uses the Link component from react-router-dom to create the links to the different pages. 
+//It also uses the useLocation hook from react-router-dom to determine which page is currently being viewed and 
+//apply the active class to the appropriate link.
 import { Link, useLocation } from 'react-router-dom';
 
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
+// Navigation component 
 function Navigation() {
   const currentPage = useLocation().pathname;
 
