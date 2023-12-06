@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "name": "PWA",
+        "name": "PWA - Text Editor",
         "image": "https://github.com/SajithAravindan/PWA-textEditor/raw/main/client/src/images/demo.png",
         "github": "https://github.com/SajithAravindan/PWA-textEditor.git",
         "deploy": "https://pwa-texteditor.onrender.com/",

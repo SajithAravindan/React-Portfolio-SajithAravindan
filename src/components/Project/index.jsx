@@ -14,8 +14,8 @@ function Project(props) {
                     <li><a href={props.deploy} target="_blank" rel="noreferrer"><i className="fa fa-cloud-upload"></i></a></li>
                 </ul>
                 <div className="user-info">
-                    <h4>{props.name}</h4>
-                    <span>{props.topics}</span>
+                    <h5>{props.name}</h5>
+                    <span className='topics'>{props.topics}</span>
                 </div>               
             </div>
         </div>

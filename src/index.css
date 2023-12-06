@@ -38,6 +38,17 @@ main {
   padding: 20px; 
 }
 
+h5 {
+  font-size: 1.2em;
+  line-height: 0.5;
+  color: #3105a0;
+}
+
+.topics {
+  font-size: 1.2em;
+  line-height: 0.5;
+}
+
 footer {
   background-color: #D4A373;
   /* Adjust the background color as needed */
