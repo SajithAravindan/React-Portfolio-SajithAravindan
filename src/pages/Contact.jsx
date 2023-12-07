@@ -60,7 +60,7 @@ export default function Contact() {
     } else if (name === 'email' && !validateEmail(value)) {//validateEmail function is called here
       setValidationErrors({
         ...validationErrors,
-        [name]: 'Invalid email address',
+        [name]: 'Invalid email address. Required format: <text>@<text>.<text>',
       });
     } else {
       setValidationErrors({
